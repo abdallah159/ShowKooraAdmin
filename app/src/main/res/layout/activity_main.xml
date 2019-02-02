@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/shKoraIV"
+        android:layout_width="330dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/showkora"
+        />
+
+
+    <TextView
+
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Admin Control Panel"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ba5050"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:background="#ba5050"
+            android:textColor="#FFF"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/cityBTN"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="اضافة خبر محلي " />
+
+
+        <Button
+            android:background="#ba5050"
+            android:textColor="#FFF"
+            android:id="@+id/worldBTN"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="اضافة خبر دولي " />
+
+
+       <!-- <Button
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:background="#ba5050"
+            android:textColor="#FFF"
+            android:id="@+id/shareBTN"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="test share " >
+
+        </Button>-->
+
+
+    </LinearLayout>
+
+
+
+<!--
+    <com.google.android.gms.ads.AdView
+        android:visibility="gone"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7647915106985195/9319791713">
+    </com.google.android.gms.ads.AdView>-->
+
+
+
+
+</LinearLayout>

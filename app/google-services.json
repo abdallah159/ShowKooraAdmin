@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "851733525206",
+    "firebase_url": "https://beauty-b7791.firebaseio.com",
+    "project_id": "beauty-b7791",
+    "storage_bucket": "beauty-b7791.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851733525206:android:3c7e0db2c55fd6d5",
+        "android_client_info": {
+          "package_name": "ka.com.showkoora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851733525206-3rnifdhtmikpafesd6tqu6elg5entdlg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTgFBhrKHGogBdnSAoMJbvOAnou9DAhrs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851733525206:android:7abae4fca1c2b8a5",
+        "android_client_info": {
+          "package_name": "showkooraadmin.ka.showkooraadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851733525206-3rnifdhtmikpafesd6tqu6elg5entdlg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTgFBhrKHGogBdnSAoMJbvOAnou9DAhrs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
